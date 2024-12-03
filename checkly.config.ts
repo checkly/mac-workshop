@@ -1,9 +1,9 @@
 import { defineConfig } from 'checkly'
 
 const config = defineConfig({
-  projectName: 'Axon workshop',
-  repoUrl: 'https://github.com/checkly/axon-workshop',
-  logicalId: 'logical-id',
+  projectName: 'MaC workshop',
+  repoUrl: 'https://github.com/checkly/mac-workshop',
+  logicalId: 'mac-workshop-2024-1',
   checks: {
     runtimeId: '2024.09',
     frequency: 10,

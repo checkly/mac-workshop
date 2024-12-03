@@ -1,18 +1,11 @@
-# Checkly Monitoring-as-code: Boilerplate Project
+# Checkly Monitoring-as-code Workshop repo
 
-This example project shows how you can use the Checkly CLI in a monitoring as code (MaC) workflow. We are using the
-https://checklyhq.com website as a monitoring target.
-
-1. Write API Checks and Playwright-powered Browser Checks!
-2. Test -> Deploy: now you have your app monitored around the clock. All from your code base.
-
-```
-npm create checkly -- --template boilerplate-project
-```
+This project is part of the "Monitoring as Code with Checkly" workshop.
+You can pull the repo
 
 ## Project Structure
 
-This project has the basic boilerplate files needed to get you started.
+This project has the following file structure
 
 ```
 .

@@ -1,7 +1,24 @@
-# Checkly Monitoring-as-code Workshop repo
+# Checkly Monitoring-as-code Workshop
 
-This project is part of the "Monitoring as Code with Checkly" workshop.
-You can pull the repo
+This project is part of the "Monitoring as Code with Checkly" workshop. Run the examples as follows:
+
+```sh
+git clone https://github.com/checkly/mac-workshop.git
+cd mac-workshop
+npm install
+```
+
+Make sure you are logged into your checkly account:
+
+```sh
+npx checkly login
+```
+
+Run the first example:
+
+```sh
+npx checkly test _1
+```
 
 ## Project Structure
 

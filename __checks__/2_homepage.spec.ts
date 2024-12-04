@@ -1,3 +1,6 @@
+// This .spec.ts file will be picked up by Checkly and run as a browser check.
+// It will use the defaults set in the checkly.config.ts file
+
 import { test, expect } from '@playwright/test'
 
 test('Axon homepage', async ({ page }) => {

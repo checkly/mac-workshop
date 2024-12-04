@@ -1,3 +1,4 @@
+// This .check.ts file sets specific configurations for the check, such as the frequency and locations.
 import { BrowserCheck, Frequency } from 'checkly/constructs'
 
 new BrowserCheck('homepage-check-1', {

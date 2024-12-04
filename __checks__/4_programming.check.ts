@@ -1,5 +1,6 @@
 import { ApiCheck, Frequency } from 'checkly/constructs'
 
+// You can use any TypeScript/JavaScript code to create and organize your checks.
 const url = 'https://google.com'
 
 const targets = [

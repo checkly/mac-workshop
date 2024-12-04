@@ -1,3 +1,5 @@
+// This .spec.ts is referenced in the 3_homepage.check.ts file.
+
 import { test, expect } from '@playwright/test'
 
 test('Checkly homepage', async ({ page }) => {

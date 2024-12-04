@@ -1,10 +1,11 @@
 import { ApiCheck, Frequency, AssertionBuilder, SmsAlertChannel } from 'checkly/constructs'
 
-const timsPhone = SmsAlertChannel.fromId('240903')
+// You can reference an alert channel by its ID.
+// const timsPhone = SmsAlertChannel.fromId('240903')
 
 new ApiCheck('json-test-api-check-2', {
   name: 'JSON test api',
-  alertChannels: [timsPhone],
+  // alertChannels: [timsPhone],
   frequency: Frequency.EVERY_30M,
   request: {
     url: 'https://jsonplaceholder.typicode.com/posts',
